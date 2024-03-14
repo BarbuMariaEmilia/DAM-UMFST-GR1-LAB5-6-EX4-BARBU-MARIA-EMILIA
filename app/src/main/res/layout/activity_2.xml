@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity2">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chat App - Second"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp" />
+
+    <ListView
+        android:id="@+id/listChat2"
+        android:layout_width="match_parent"
+        android:layout_height="495dp"
+        android:textAlignment="textEnd" />
+
+    <View
+        android:id="@+id/view10"
+        android:layout_width="match_parent"
+        android:layout_height="21dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:orientation="horizontal">
+
+        <View
+            android:id="@+id/view11"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+
+        <Button
+            android:id="@+id/btnSend2"
+            android:layout_width="wrap_content"
+            android:layout_height="61dp"
+            android:layout_weight="1"
+            android:text="Send"
+            android:onClick="sendMessage" />
+
+        <View
+            android:id="@+id/view12"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view13"
+        android:layout_width="match_parent"
+        android:layout_height="24dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:orientation="horizontal">
+
+        <View
+            android:id="@+id/view15"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Previous Page"
+            android:onClick="previousPage"/>
+
+        <View
+            android:id="@+id/view16"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/txtSend"
+        android:layout_width="wrap_content"
+        android:layout_height="62dp"
+        android:layout_weight="1"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        tools:ignore="LabelFor" />
+
+
+</LinearLayout>
